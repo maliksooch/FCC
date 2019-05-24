@@ -1,0 +1,137 @@
+/* Begin at line: 85; Class product-card */
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#header-img{
+    width: auto;
+    height: 80px;
+    margin: 5px 20px;
+
+}
+header > nav > ul{
+    display: flex;
+    list-style: none;
+}
+
+header > nav > ul > li{
+    padding: 5px 5vw;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+main{
+    margin-top: 100px;
+}
+
+
+.email-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.email-box > form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Feature section*/
+#features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature-row{
+    display: flex;
+    flex-direction: row;
+}
+.feature-icon{
+    width: 120px;
+    padding: 20px;
+}
+
+#video-section{
+    display: flex;
+    justify-content: center;
+}
+
+#pricing{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+
+.product-card{
+    border: 1px solid black;
+    width: 310px;
+    margin:2rem 0;
+    text-align: center;
+}
+.product-card:nth-child(2){
+    margin: 2rem 1rem;
+}
+
+.product-details{
+    margin:0;
+    padding: 1rem;
+}
+.product-card-title{
+    background-color: #ddd;
+    color: black;
+    padding: 15px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.product-card-cost{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    background: #ddd;
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+footer ul li{
+    list-style: none;
+    width: auto;
+    padding: 1rem;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #000;
+}
+footer p{
+    color: #444;
+    padding-right: 1rem;
+}
+

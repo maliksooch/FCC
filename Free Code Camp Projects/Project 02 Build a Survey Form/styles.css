@@ -1,0 +1,74 @@
+
+body{
+	background-color: #a9d7d1;
+	text-align: center;
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+#survey-form {
+	background-color: white;
+	margin: 0% 15%;
+	padding: 2% 3%;
+	border-radius: 4px;
+}
+
+/*Layout*/
+
+.input-row {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 10px 0;
+}
+
+.input-row .input-label {
+	width: 100%;
+    text-align: left;
+
+}
+
+@media (min-width: 768px){
+	.input-row{
+		flex-direction: row;
+	}
+	.input-row input-label{
+		text-align: right;
+	}
+}
+
+
+.input-row .input-field {
+    width: 50%;
+    margin-left: 0.5rem;
+    margin-right: 25%;
+	padding: 5px;
+}
+
+.input-field-options{
+	display:flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.input-field-options label{
+	white-space: nowrap;
+}
+.input-field-options input[type="checkbox"]{
+	margin-right:10px;
+}
+
+/*Generic styling */
+
+.input-row > label{
+	margin:10px;
+}
+
+input[type=text]{
+	border: 1px solid #c0c0c0;
+    border-radius: 2px;
+   
+}
+
+input, textarea, select{
+	margin: 0;
+}

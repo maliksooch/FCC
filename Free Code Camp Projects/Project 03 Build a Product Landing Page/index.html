@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This where I last left off: All CSS at this point; line 85 -->
+	<title id="title">Product Landing Page</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+			
+	<link rel="stylesheet" href="styles.css">
+
+	<style>
+	@media screen and (min-width: 480px) {
+    .email-box {
+        background: #fff;
+      }
+	}
+	header{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #fff;
+}
+
+	</style>
+</head>
+<body>
+	<header id="header">
+		<img id="header-img" src="http://winmoregames.com/wp-content/themes/FoundationPress/assets/images/wmg/icon__play.svg">
+		<nav id="nav-bar">
+			<ul>
+				<li><a class="nav-link" href="#features">Features</a></li>
+				<li><a class="nav-link" href="#video-section">How It Works</a></li>
+				<li><a class="nav-link" href="#pricing">Pricing</a></li>
+			</ul>
+		</nav>		
+	</header>
+	<main>
+		<div class="email-box">
+			<h1>Handcrafted, home-made masterpieces</h1>
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+				<input id="email" type="email" name="email" placeholder="Enter your email address" required>
+				<input id="submit" type="submit" name="submit" value="Get Started">
+			</form>
+		</div>
+		<section id="features">
+			<div class="feature-row">
+				<div class="feature-icon">
+          <img src="images/trucking.svg" />
+				</div>
+				
+				<div class="feature-content">
+					<h2>Lorem ipsum</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+				</div>				
+			</div>
+			<div class="feature-row">
+				<div class="feature-icon">
+					<!-- <i class="material-icons">battery_charging_20</i> -->
+					<img src="images/trucking.svg" />
+				</div>
+				<div class="feature-content">
+					<h2>Lorem ipsum</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+				</div>				
+			</div>
+			<div class="feature-row">
+					<div class="feature-icon">
+							<img src="images/trucking.svg" />
+						</div>
+					<div class="feature-content">
+						<h2>Lorem ipsum</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+					</div>				
+				</div>
+			
+		</section>
+		<section id="video-section">
+			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/7DyzDAu48g4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<!-- <video controls width="250">
+				<source src="https://youtu.be/7DyzDAu48g4" type="video">
+				Sorry, your browser doesn't support embedded videos.
+			</video> -->
+		</section>
+		<section id="pricing">
+			<div id="column-tenor" class="product-card">
+				<p class="product-card-title">TENOR TROMBONE</p>
+				<div class="product-details">
+					<p class=	"product-card-cost">$600</p>
+					<div class="product-card-description">
+						<ol>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+						</ol>
+					</div>
+					<button class="product-card-button">Select</button>
+				</div>
+			</div>
+			<div id="column-bass" class="product-card">
+				<p class="product-card-title">BASS TROMBONE</p>
+				<div class="product-details">
+					<p class="product-card-cost">$900</p>
+					<div class="product-card-description">
+						<ol>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+						</ol>
+					</div>
+					<button class="product-card-button">Select</button>
+				</div>
+			</div>
+			<div id= "column-valve" class="product-card">
+				<p class="product-card-title">VALVE TROMBONE</p>
+				<div class="product-details">
+					<p class="product-card-cost">$1200</p>
+					<div class="product-card-description">
+						<ol>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+							<li>Lorem ipsum.</li>
+						</ol>
+					</div>
+					<button class="product-card-button">Select</button>	
+				</div>
+				
+			</div>
+		</section>
+		<footer>
+			<ul>
+				<li>
+					<a class="footer-link" href="#header">Privacy</a>
+				</li>
+				<li>
+					<a class="footer-link" href="#header">Terms</a>
+				</li>
+				<li>
+					<a class="footer-link" href="#header">Contact</a>
+				</li>
+			</ul>
+			<p>Copyright 2016, Original Trombones</p>
+		</footer>
+	</main>
+</body>
+<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>
+</html>
